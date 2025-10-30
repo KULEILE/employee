@@ -2,7 +2,6 @@
   "name": "attendance-tracker-frontend",
   "version": "1.0.0",
   "description": "Frontend for Employee Attendance Tracker",
-  "homepage": ".",
   "dependencies": {
     "axios": "^1.5.0",
     "react": "^18.2.0",
@@ -11,6 +10,7 @@
     "serve": "^14.2.5"
   },
   "scripts": {
+    "preinstall": "chmod +x node_modules/.bin/react-scripts || true",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "start:prod": "serve -s build",
