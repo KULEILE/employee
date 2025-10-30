@@ -33,7 +33,7 @@ function App() {
 
             <main className="main-content">
                 <h1 className="page-title">
-                    Employee Attendance Tracker
+                    Red Bat Employee Attendance Tracker
                 </h1>
                 
                 {activeTab === 'form' ? <AttendanceForm /> : <AttendanceDashboard />}

@@ -14,8 +14,8 @@ const Footer = () => {
                     <a href="#help" className="footer-link">Help Center</a>
                 </div>
                 <div className="footer-text">
-                    <p>&copy; {currentYear} Employee Attendance Tracker. Faculty of Information & Communication Technology.</p>
-                    <p>BSc. in Information Technology - Limkokwing University of Creative Technology</p>
+                    <p>&copy; {currentYear}  Red bat Employee Attendance Tracker. </p>
+        
                 </div>
             </div>
         </footer>
